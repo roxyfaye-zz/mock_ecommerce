@@ -1,98 +1,128 @@
-  * {
-  box-sizing: border-box;
-  outline: 1px solid rgba(0, 0, 255, .1);
-  background: transparent;
-}
+          * {
+          box-sizing: border-box;
+          outline: 1px solid rgba(0, 0, 255, .1);
+          background: transparent;
+        }
 
-@media screen and ( max-width: 800px) {
-  img {
-    width: 100%;
-  }
-  body {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    color: #0d0d0d;
-    font-size: 1rem;
-  }
-  button {
-    background: none;
-    border: none;
-  }
-  .roboto {
-    font-family: 'Roboto', sans-serif;
-    color: #656262;
-  }
-  .noto {
-    font-family: 'Noto Serif', serif;
-  }
-  a {
-    color: #0d0d0d;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .wrapper {
-    background-color: #FFF;
-    margin: 0 auto;
-    width: 100%;
-  }
-  #home {
-    color: #878787;
-    background-color: #ffffff;
-    font-size: .8rem;
-    line-height: 1rem;
-    padding: 10px 5px;
-    text-align: center;
-  }
-  #announcements {
-    background-color: $off-white;
-    font-size: 0.8rem;
-    line-height: 1rem;
-    padding: 10px 5px;
-    text-align: center;
-    color: #818181;
-  }
-  .close {
-    float: left;
-  }
-  header {
-    display: flex;
-    padding: 5% 0 12%;
-    position: relative;
-    text-align: center;
-  }
-  #nav {
-    background-image: url("./img/mobile_nav.png");
-    height: 25px;
-    width: 10%;
-    text-indent: -9999px;
-    color: #878787;
-  }
-  h1 {
-    width: 100%;
-    letter-spacing: .3rem;
-    vertical-align: middle;
-    margin: inherit;
-  }
-  #search {
-    background-image: url("./img/search_icon.png");
-    height: 25px;
-    width: 10%;
-    text-indent: -9999px;
-    background-repeat: no-repeat;
-  }
-  #cart {
-    background-image: url("./img/cart_icon.png");
-    height: 25px;
-    width: 10%;
-    text-indent: -9999px;
-    background-repeat: no-repeat;
-  }
-  .shop-link {
-    border-bottom: 1px solid #0d0d0d;
-    display: inline-block;
-    font-size: .65rem;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    padding-bottom: 3px;
-    text-align: center;
-  }
-  @media screen and ( min-width: 800px) {}
+        @media screen and ( max-width: 800px) {
+          img {
+            width: 100%;
+          }
+          body {
+            font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+            color: #0d0d0d;
+            font-size: 1rem;
+          }
+          button {
+            background: none;
+            border: none;
+          }
+          .roboto {
+            font-family: 'Roboto', sans-serif;
+            color: #656262;
+          }
+          .noto {
+            font-family: 'Noto Serif', san-serif;
+          }
+          .open {
+            font-family: 'Open Sans', sans-serif;
+          }
+          a {
+            color: #0d0d0d;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+          .wrapper {
+            background-color: #FFF;
+            margin: 0 auto;
+            width: 100%;
+          }
+          #home {
+            color: #878787;
+            background-color: #ffffff;
+            font-size: .8rem;
+            line-height: 1rem;
+            padding: 10px 5px;
+            text-align: center;
+          }
+          #announcements {
+            background-color: $off-white;
+            font-size: 0.8rem;
+            line-height: 1rem;
+            padding: 10px 5px;
+            text-align: center;
+            color: #818181;
+          }
+          .close {
+            float: left;
+          }
+          header {
+            display: flex;
+            margin-top: 6px;
+            padding: 5% 0 9%;
+            position: relative;
+            text-align: center;
+          }
+          #nav {
+            background-image: url("./img/mobile_nav.png");
+            height: 22px;
+            width: 10%;
+            text-indent: -9999px;
+            color: #878787;
+          }
+          h1 {
+            width: 100%;
+            font-size: 16px;
+            letter-spacing: .3rem;
+            vertical-align: middle;
+            margin: inherit;
+            padding-left: 47px;
+          }
+          #search {
+            background-image: url("./img/search_icon.png");
+            height: 24px;
+            width: 10%;
+            text-indent: -9999px;
+            background-repeat: no-repeat;
+          }
+          #cart {
+            background-image: url("./img/cart_icon.png");
+            height: 24px;
+            width: 10%;
+            text-indent: -9999px;
+            background-repeat: no-repeat;
+          }
+          .shop-link {
+            border-bottom: 1px solid #0d0d0d;
+            display: inline-block;
+            font-size: .65rem;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            padding-bottom: 3px;
+            text-align: center;
+          }
+          h2 {
+            color: #737373;
+            font-weight: normal;
+          }
+          #hero_footer {
+            color: #404040;
+            height: 145px;
+            padding-top: 35px;
+          }
+          #statement {
+            letter-spacing: .1rem;
+          }
+          .open {
+            font-size: 20px;
+            color: #333333;
+            background-color: #F8F8F8;
+            padding-top: 15px;
+          }
+          #statement-timeless {
+            padding-bottom: 10px;
+          }
+          #statement-trends {
+            padding-bottom: 65px;
+          }
+          @media screen and ( min-width: 800px) {}
